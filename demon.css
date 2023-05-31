@@ -1,0 +1,12 @@
+h3{
+    text-align: center;
+    background:linear-gradient(#002aff,#4f4e4d);
+    background-clip: text;
+    -webkit-background-clip: text;
+	letter-spacing: 4px;
+    font-size: 25px;
+	word-spacing: 10px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+    color: transparent;
+}
+

@@ -1,0 +1,25 @@
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li{
+    letter-spacing: 5px;
+    font-size: 20px;
+    list-style-type: none;
+}
+nav ul li a{
+    border-radius: 0 15px;
+}
+li a:is(:link, :active, :visited){
+    color: black;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+}
+
+a:is(:link, :active, :visited).active{
+    color: white;
+    background-color: black;
+}
